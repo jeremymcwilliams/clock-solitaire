@@ -89,7 +89,7 @@ function render() {
     if (complete) pileEl.classList.add('complete');
 
     const faceUpFan = pile.faceUp
-      .map((card, i) => `<div class="faceup-card" style="top:${i * 4}px;left:${i * 2}px">${cardHTML(card)}</div>`)
+      .map((card, i) => `<div class="faceup-card" style="top:${i * 18}px;left:${i * 18}px;z-index:${i}">${cardHTML(card)}</div>`)
       .join('');
 
     pileEl.innerHTML = `

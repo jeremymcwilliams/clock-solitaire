@@ -81,8 +81,8 @@ main {
 
 .pile-stack {
   position: relative;
-  width: 52px;
-  height: 72px;
+  width: 100px;
+  height: 128px;
 }
 
 .pile.active {
